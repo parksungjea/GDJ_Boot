@@ -17,10 +17,10 @@ class NoticeDAOTest {
 	
 	
 	//@Test
-	void getListText() throws Exception{
-		List<BoardVO> ar  = noticeDAO.getList();		
-		assertEquals(10, ar.size());
-	}
+//	void getListText() throws Exception{
+//		List<BoardVO> ar  = noticeDAO.getList();		
+//		assertEquals(10, ar.size());
+//	}
 	
 	@Test
 	void addTest()throws Exception{
